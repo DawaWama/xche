@@ -1,0 +1,410 @@
+[
+  {
+    "id": 0,
+    "name": "Խաչատուր(ԽՉԷ)",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Խլղաթի",
+    "birthDate": "05.11.1836",
+    "dieDate": "05.11.1875",
+    "imageAddress": "images/people/0.avif",
+    "description": "Հանդիսանում է Խաչատրյան ազգի հիմնադիրը, գաղթել է Արևմտյան հայաստանի Ալաշկերտի գավառակի Արծափ գյուղից Արևելյան հայաստանի Վերին Կզնուտ (Գեղհովիտ) բնակատեղին 1800ականներին",
+    "phone": "",
+    "socialLinks": [],
+    "fatherId": null,
+    "sonsIdList": [
+      111,
+      2,
+      3,
+      4,
+      5,
+      66
+    ]
+  },
+  {
+    "id": 111,
+    "name": "Խլղաթ",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Խաչատուրի",
+    "birthDate": "12.03.1858",
+    "dieDate": "",
+    "imageAddress": "images/people/111.avif",
+    "description": "Հավելյալ տեղեկություններ",
+    "phone": "",
+    "socialLinks": [],
+    "fatherId": 0,
+    "sonsIdList": [
+      118,
+      119,
+      1110,
+      1127
+    ]
+  },
+  {
+    "id": 118,
+    "name": "Մարտիրոս",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Խլղաթի",
+    "birthDate": "03.04.1882",
+    "dieDate": "17.08.1952",
+    "imageAddress": "images/people/default.avif",
+    "description": "Հավելյալ տեղեկություններ",
+    "phone": "",
+    "socialLinks": [],
+    "fatherId": 111,
+    "sonsIdList": []
+  },
+  {
+    "id": 119,
+    "name": "Գալուստ",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Խլղաթի",
+    "birthDate": "21.07.1885",
+    "dieDate": "29.03.1958",
+    "imageAddress": "images/people/default.avif",
+    "description": "Հավելյալ տեղեկություններ",
+    "phone": "",
+    "socialLinks": [],
+    "fatherId": 111,
+    "sonsIdList": []
+  },
+  {
+    "id": 1110,
+    "name": "Գրիգոր",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Խլղաթի",
+    "birthDate": "15.11.1888",
+    "dieDate": "06.06.1965",
+    "imageAddress": "images/people/default.avif",
+    "description": "Հավելյալ տեղեկություններ",
+    "phone": "",
+    "socialLinks": [],
+    "fatherId": 111,
+    "sonsIdList": [
+      1128
+    ]
+  },
+  {
+    "id": 1128,
+    "name": "Աղաջան",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Գրիգորի",
+    "birthDate": "18.06.1915",
+    "dieDate": "05.04.1984",
+    "imageAddress": "images/people/default.avif",
+    "description": "Հավելյալ տեղեկություններ",
+    "phone": "",
+    "socialLinks": [],
+    "fatherId": 1110,
+    "sonsIdList": []
+  },
+  {
+    "id": 1127,
+    "name": "Սողոմոն",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Խլղաթի",
+    "birthDate": "10.02.1892",
+    "dieDate": "14.11.1969",
+    "imageAddress": "images/people/default.avif",
+    "description": "Հավելյալ տեղեկություններ",
+    "phone": "",
+    "socialLinks": [],
+    "fatherId": 111,
+    "sonsIdList": [
+      1129,
+      1130
+    ]
+  },
+  {
+    "id": 1129,
+    "name": "Ժորժիկ",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Սողոմոնի",
+    "birthDate": "12.08.1920",
+    "dieDate": "20.10.1991",
+    "imageAddress": "images/people/default.avif",
+    "description": "Հավելյալ տեղեկություններ",
+    "phone": "",
+    "socialLinks": [],
+    "fatherId": 1127,
+    "sonsIdList": []
+  },
+  {
+    "id": 1130,
+    "name": "Միրզաջան",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Սողոմոնի",
+    "birthDate": "04.03.1923",
+    "dieDate": "11.07.1998",
+    "imageAddress": "images/people/default.avif",
+    "description": "Հավելյալ տեղեկություններ",
+    "phone": "",
+    "socialLinks": [],
+    "fatherId": 1127,
+    "sonsIdList": [
+      1131,
+      1132,
+      1133
+    ]
+  },
+  {
+    "id": 1131,
+    "name": "Բուրթել",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Միրզաջանի",
+    "birthDate": "15.05.1948",
+    "dieDate": "10.02.2018",
+    "imageAddress": "images/people/default.avif",
+    "description": "Հավելյալ տեղեկություններ",
+    "phone": "",
+    "socialLinks": [],
+    "fatherId": 1130,
+    "sonsIdList": [
+      1134,
+      1135
+    ]
+  },
+  {
+    "id": 1134,
+    "name": "Տիգրան",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Բուրթելի",
+    "birthDate": "11.04.1972",
+    "dieDate": "",
+    "imageAddress": "images/people/default.avif",
+    "description": "Հավելյալ տեղեկություններ",
+    "phone": "",
+    "socialLinks": [],
+    "fatherId": 1131,
+    "sonsIdList": [
+      1140
+    ]
+  },
+  {
+    "id": 1140,
+    "name": "Իգոր",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Տիգրանի",
+    "birthDate": "20.06.1998",
+    "dieDate": "",
+    "imageAddress": "images/people/default.avif",
+    "description": "Հավելյալ տեղեկություններ",
+    "phone": "",
+    "socialLinks": [],
+    "fatherId": 1134,
+    "sonsIdList": []
+  },
+  {
+    "id": 1135,
+    "name": "Տարոն",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Բուրթելի",
+    "birthDate": "19.08.1976",
+    "dieDate": "",
+    "imageAddress": "images/people/default.avif",
+    "description": "Հավելյալ տեղեկություններ",
+    "phone": "",
+    "socialLinks": [],
+    "fatherId": 1131,
+    "sonsIdList": [
+      1141,
+      1142
+    ]
+  },
+  {
+    "id": 1141,
+    "name": "Սևակ",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Տարոնի",
+    "birthDate": "12.01.2001",
+    "dieDate": "",
+    "imageAddress": "images/people/default.avif",
+    "description": "Հավելյալ տեղեկություններ",
+    "phone": "",
+    "socialLinks": [],
+    "fatherId": 1135,
+    "sonsIdList": []
+  },
+  {
+    "id": 1142,
+    "name": "Արտյոմ",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Տարոնի",
+    "birthDate": "09.11.2005",
+    "dieDate": "",
+    "imageAddress": "images/people/1142.avif",
+    "description": "Հավելյալ տեղեկություններ",
+    "phone": "+374 77 539237",
+    "socialLinks": [],
+    "fatherId": 1135,
+    "sonsIdList": []
+  },
+  {
+    "id": 1132,
+    "name": "Տարիել",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Միրզաջանի",
+    "birthDate": "22.09.1951",
+    "dieDate": "",
+    "imageAddress": "images/people/default.avif",
+    "description": "Հավելյալ տեղեկություններ",
+    "phone": "",
+    "socialLinks": [],
+    "fatherId": 1130,
+    "sonsIdList": [
+      1136,
+      1137
+    ]
+  },
+  {
+    "id": 1136,
+    "name": "Արթուր",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Տարիելի",
+    "birthDate": "05.02.1975",
+    "dieDate": "",
+    "imageAddress": "images/people/default.avif",
+    "description": "Հավելյալ տեղեկություններ",
+    "phone": "",
+    "socialLinks": [],
+    "fatherId": 1132,
+    "sonsIdList": []
+  },
+  {
+    "id": 1137,
+    "name": "Արմեն",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Տարիելի",
+    "birthDate": "14.10.1979",
+    "dieDate": "",
+    "imageAddress": "images/people/default.avif",
+    "description": "Հավելյալ տեղեկություններ",
+    "phone": "",
+    "socialLinks": [],
+    "fatherId": 1132,
+    "sonsIdList": [
+      1143
+    ]
+  },
+  {
+    "id": 1143,
+    "name": "Արթուր",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Արմենի",
+    "birthDate": "17.04.2006",
+    "dieDate": "",
+    "imageAddress": "images/people/default.avif",
+    "description": "Հավելյալ տեղեկություններ",
+    "phone": "",
+    "socialLinks": [],
+    "fatherId": 1137,
+    "sonsIdList": []
+  },
+  {
+    "id": 1133,
+    "name": "Փայլակ",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Միրզաջանի",
+    "birthDate": "08.12.1955",
+    "dieDate": "",
+    "imageAddress": "images/people/default.avif",
+    "description": "Հավելյալ տեղեկություններ",
+    "phone": "",
+    "socialLinks": [],
+    "fatherId": 1130,
+    "sonsIdList": [
+      1138,
+      1139
+    ]
+  },
+  {
+    "id": 1138,
+    "name": "Ռաֆիկ",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Փայլակի",
+    "birthDate": "28.03.1978",
+    "dieDate": "",
+    "imageAddress": "images/people/default.avif",
+    "description": "Հավելյալ տեղեկություններ",
+    "phone": "",
+    "socialLinks": [],
+    "fatherId": 1133,
+    "sonsIdList": [
+      1144,
+      1145
+    ]
+  },
+  {
+    "id": 1144,
+    "name": "Կարեն",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Ռաֆիկի",
+    "birthDate": "25.02.2002",
+    "dieDate": "",
+    "imageAddress": "images/people/default.avif",
+    "description": "Հավելյալ տեղեկություններ",
+    "phone": "",
+    "socialLinks": [],
+    "fatherId": 1138,
+    "sonsIdList": []
+  },
+  {
+    "id": 1145,
+    "name": "Արմեն",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Ռաֆիկի",
+    "birthDate": "07.09.2004",
+    "dieDate": "",
+    "imageAddress": "images/people/default.avif",
+    "description": "Հավելյալ տեղեկություններ",
+    "phone": "",
+    "socialLinks": [],
+    "fatherId": 1138,
+    "sonsIdList": [
+      1147
+    ]
+  },
+  {
+    "id": 1147,
+    "name": "Ռաֆո",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Արմենի",
+    "birthDate": "30.01.2025",
+    "dieDate": "",
+    "imageAddress": "images/people/default.avif",
+    "description": "Հավելյալ տեղեկություններ",
+    "phone": "",
+    "socialLinks": [],
+    "fatherId": 1145,
+    "sonsIdList": []
+  },
+  {
+    "id": 1139,
+    "name": "Ռադիկ",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Փայլակի",
+    "birthDate": "03.07.1982",
+    "dieDate": "",
+    "imageAddress": "images/people/default.avif",
+    "description": "Հավելյալ տեղեկություններ",
+    "phone": "",
+    "socialLinks": [],
+    "fatherId": 1133,
+    "sonsIdList": [
+      1146
+    ]
+  },
+  {
+    "id": 1146,
+    "name": "Էդուարդ",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Ռադիկի",
+    "birthDate": "14.08.2010",
+    "dieDate": "",
+    "imageAddress": "images/people/default.avif",
+    "description": "Հավելյալ տեղեկություններ",
+    "phone": "",
+    "socialLinks": [],
+    "fatherId": 1139,
+    "sonsIdList": []
+  }
+]

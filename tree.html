@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="hy">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ազգի Ծառ — Խաչատրյաններ</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="tree.js"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="index.html" class="brand">
+          <img src="images/logos/logo.avif" alt="Խաչատրյաններ" class="logo" />
+          <span class="brand-title">Խաչատրյաններ</span>
+        </a>
+      </div>
+    </header>
+
+    <main class="container page-content">
+      <a href="index.html" class="back-link">← Գլխավոր էջ</a>
+
+      <nav id="ancestor-breadcrumb" class="ancestor-breadcrumb" aria-label="Նախնիներ"></nav>
+
+      <section id="person-detail" class="person-detail">
+        <p class="loading">Բեռնվում է...</p>
+      </section>
+
+      <section id="sons-section" class="sons-section" hidden>
+        <h2 id="sons-title">Որդիներ</h2>
+        <div id="sons-grid" class="sons-grid"></div>
+      </section>
+    </main>
+
+    <div id="image-lightbox" class="image-lightbox" hidden>
+      <button type="button" class="image-lightbox-close" aria-label="Փակել">X</button>
+      <img id="image-lightbox-image" src="" alt="" />
+    </div>
+
+    <footer class="site-footer">
+      <div class="container">
+        <small>© Խաչատրյաններ</small>
+      </div>
+    </footer>
+  </body>
+</html>

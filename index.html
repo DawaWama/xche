@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="hy">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Խաչատրյաններ</title>
+    <meta name="description" content="Խաչատրյան ազգի պատմություն և ազգի ծառ" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="index.html" class="brand">
+          <img src="images/logos/logo.avif" alt="Խաչատրյաններ" class="logo" />
+          <span class="brand-title">Խաչատրյաններ</span>
+        </a>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="intro">
+        <p class="intro-text">Կայքում ներկայացված է Խաչատրյանների տոհմածառն ու պատմությունը...</p>
+      </section>
+
+      <section class="person-search" aria-labelledby="person-search-title">
+        <h2 id="person-search-title">Որոնում</h2>
+        <label for="person-search-input"></label>
+        <input id="person-search-input" type="search" placeholder="Մուտքագրեք անունը" autocomplete="off" />
+        <p id="person-search-status" class="person-search-status" aria-live="polite"></p>
+        <div id="person-search-results" class="person-search-results"></div>
+      </section>
+
+      <section class="menu-cards">
+        <a href="people.html" class="menu-card">
+          <div class="menu-card-icon" aria-hidden="true"><img src="images/people/default.avif" alt="" /></div>
+          <h2>Բոլոր Խաչատրյանները</h2>
+          <p>Դիտել բոլոր ազգականներին</p>
+        </a>
+        <a href="tree.html?id=0" class="menu-card">
+          <div class="menu-card-icon" aria-hidden="true"><img src="images/logos/tree.avif" alt="" /></div>
+          <h2>Տոհմածառ</h2>
+          <p>Տեսնել Խաչատրյանների տոհմածառը</p>
+        </a>
+        <a href="history.html" class="menu-card">
+          <div class="menu-card-icon menu-card-book" aria-hidden="true"><img src="images/logos/book.avif" alt="" /></div>
+          <h2>Խաչատրյանների պատմությունը</h2>
+          <p>Ծանոթանալ տոհմի պատմությանն ու արմատներին</p>
+        </a>
+        <a href="havaq2026.html" class="menu-card">
+          <div class="menu-card-icon" aria-hidden="true"><img src="images/logos/fist.avif" alt="" /></div>
+          <h2>Խաչատրյանների հավաք 2026</h2>
+          <p>Տեսնել 2026 թվականի ընտանեկան հավաքի լուսանկարները</p>
+        </a>
+        <a href="media.html" class="menu-card">
+          <div class="menu-card-icon" aria-hidden="true"><img src="images/logos/camera.avif" alt="" /></div>
+          <h2>Մեդիա</h2>
+          <p>Դիտել կայքի բոլոր լուսանկարները</p>
+        </a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <small>© Խաչատրյաններ</small>
+      </div>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>

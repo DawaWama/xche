@@ -1,0 +1,640 @@
+[
+  {
+    "id": 5,
+    "name": "Հարություն",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Խաչատուրի",
+    "birthDate": "30.10.1869",
+    "dieDate": "08.04.1940",
+    "imageAddress": "images/people/5.avif",
+    "description": "Հավելյալ տեղեկություններ",
+    "phone": "",
+    "socialLinks": [],
+    "fatherId": 0,
+    "sonsIdList": [
+      5518,
+      5519,
+      5520
+    ]
+  },
+  {
+    "id": 5518,
+    "name": "Խաչատուր",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Հարությունի",
+    "birthDate": "12.04.1892",
+    "dieDate": "",
+    "imageAddress": "images/people/default.avif",
+    "description": "Հավելյալ տեղեկություններ",
+    "phone": "",
+    "socialLinks": [],
+    "fatherId": 5,
+    "sonsIdList": []
+  },
+  {
+    "id": 5519,
+    "name": "Ալեքսան",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Հարությունի",
+    "birthDate": "18.09.1897",
+    "dieDate": "",
+    "imageAddress": "images/people/default.avif",
+    "description": "Հավելյալ տեղեկություններ",
+    "phone": "",
+    "socialLinks": [],
+    "fatherId": 5,
+    "sonsIdList": []
+  },
+  {
+    "id": 5520,
+    "name": "Շմավոն",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Հարությունի",
+    "birthDate": "03.02.1902",
+    "dieDate": "",
+    "imageAddress": "images/people/default.avif",
+    "description": "Հավելյալ տեղեկություններ",
+    "phone": "",
+    "socialLinks": [],
+    "fatherId": 5,
+    "sonsIdList": [
+      5521,
+      5522,
+      5523
+    ]
+  },
+  {
+    "id": 5521,
+    "name": "Սամսոն",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Շմավոնի",
+    "birthDate": "15.06.1910",
+    "dieDate": "",
+    "imageAddress": "images/people/default.avif",
+    "description": "Հավելյալ տեղեկություններ",
+    "phone": "",
+    "socialLinks": [],
+    "fatherId": 5520,
+    "sonsIdList": [
+      5554,
+      5524,
+      5525,
+      5526
+    ]
+  },
+  {
+    "id": 5522,
+    "name": "Աբով",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Շմավոնի",
+    "birthDate": "18.11.1918",
+    "dieDate": "18.04.2017",
+    "imageAddress": "images/people/5522.avif",
+    "description": "Հավելյալ տեղեկություններ",
+    "phone": "",
+    "socialLinks": [],
+    "fatherId": 5520,
+    "sonsIdList": [
+      5527,
+      5528
+    ]
+  },
+  {
+    "id": 5523,
+    "name": "Ջանիկ",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Շմավոնի",
+    "birthDate": "22.11.1922",
+    "dieDate": "",
+    "imageAddress": "images/people/default.avif",
+    "description": "Հավելյալ տեղեկություններ",
+    "phone": "",
+    "socialLinks": [],
+    "fatherId": 5520,
+    "sonsIdList": [
+      5529,
+      5530,
+      5531
+    ]
+  },
+  {
+    "id": 5554,
+    "name": "Շեքսպիր",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Սամսոնի",
+    "birthDate": "08.03.1931",
+    "dieDate": "",
+    "imageAddress": "images/people/default.avif",
+    "description": "Հավելյալ տեղեկություններ",
+    "phone": "",
+    "socialLinks": [],
+    "fatherId": 5521,
+    "sonsIdList": []
+  },
+  {
+    "id": 5524,
+    "name": "Ալբերտ",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Սամսոնի",
+    "birthDate": "17.08.1934",
+    "dieDate": "",
+    "imageAddress": "images/people/default.avif",
+    "description": "Հավելյալ տեղեկություններ",
+    "phone": "",
+    "socialLinks": [],
+    "fatherId": 5521,
+    "sonsIdList": [
+      5532,
+      5533
+    ]
+  },
+  {
+    "id": 5525,
+    "name": "Մակեդոն",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Սամսոնի",
+    "birthDate": "05.12.1938",
+    "dieDate": "",
+    "imageAddress": "images/people/default.avif",
+    "description": "Հավելյալ տեղեկություններ",
+    "phone": "",
+    "socialLinks": [],
+    "fatherId": 5521,
+    "sonsIdList": [
+      5534
+    ]
+  },
+  {
+    "id": 5526,
+    "name": "Չառլիկ",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Սամսոնի",
+    "birthDate": "21.04.1942",
+    "dieDate": "",
+    "imageAddress": "images/people/default.avif",
+    "description": "Հավելյալ տեղեկություններ",
+    "phone": "",
+    "socialLinks": [],
+    "fatherId": 5521,
+    "sonsIdList": [
+      5535,
+      5536
+    ]
+  },
+  {
+    "id": 5527,
+    "name": "Աշոտ",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Աբովի",
+    "birthDate": "14.07.1943",
+    "dieDate": "",
+    "imageAddress": "images/people/5527.avif",
+    "description": "Հավելյալ տեղեկություններ",
+    "phone": "",
+    "socialLinks": [],
+    "fatherId": 5522,
+    "sonsIdList": [
+      5557
+    ]
+  },
+  {
+    "id": 5557,
+    "name": "Արթուր",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Աշոտի",
+    "birthDate": "09.10.1965",
+    "dieDate": "",
+    "imageAddress": "images/people/default.avif",
+    "description": "Հավելյալ տեղեկություններ",
+    "phone": "+380 96 471 1117",
+    "socialLinks": [],
+    "fatherId": 5527,
+    "sonsIdList": [
+      5555,
+      5556
+    ]
+  },
+  {
+    "id": 5555,
+    "name": "Աշոտ",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Արթուրի",
+    "birthDate": "11.05.1988",
+    "dieDate": "",
+    "imageAddress": "images/people/default.avif",
+    "description": "Հավելյալ տեղեկություններ",
+    "phone": "",
+    "socialLinks": [],
+    "fatherId": 5557,
+    "sonsIdList": []
+  },
+  {
+    "id": 5556,
+    "name": "Ռոբերտ",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Արթուրի",
+    "birthDate": "24.12.1991",
+    "dieDate": "",
+    "imageAddress": "images/people/default.avif",
+    "description": "Հավելյալ տեղեկություններ",
+    "phone": "",
+    "socialLinks": [],
+    "fatherId": 5557,
+    "sonsIdList": []
+  },
+  {
+    "id": 5528,
+    "name": "Ահարոն",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Աբովի",
+    "birthDate": "20.08.1964",
+    "dieDate": "",
+    "imageAddress": "images/people/5528.avif",
+    "description": "Հավելյալ տեղեկություններ",
+    "phone": "+374 93 323146",
+    "socialLinks": [],
+    "fatherId": 5522,
+    "sonsIdList": [
+      5537,
+      5538
+    ]
+  },
+  {
+    "id": 5529,
+    "name": "Պավլիկ",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Ջանիկի",
+    "birthDate": "19.01.1948",
+    "dieDate": "",
+    "imageAddress": "images/people/default.avif",
+    "description": "Հավելյալ տեղեկություններ",
+    "phone": "",
+    "socialLinks": [],
+    "fatherId": 5523,
+    "sonsIdList": [
+      5539
+    ]
+  },
+  {
+    "id": 5530,
+    "name": "Կորյուն",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Ջանիկի",
+    "birthDate": "27.06.1952",
+    "dieDate": "",
+    "imageAddress": "images/people/5530.avif",
+    "description": "Հավելյալ տեղեկություններ",
+    "phone": "",
+    "socialLinks": [],
+    "fatherId": 5523,
+    "sonsIdList": [
+      5540,
+      5541
+    ]
+  },
+  {
+    "id": 5531,
+    "name": "Արայիկ",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Ջանիկի",
+    "birthDate": "13.12.1956",
+    "dieDate": "",
+    "imageAddress": "images/people/5531.avif",
+    "description": "Հավելյալ տեղեկություններ",
+    "phone": "",
+    "socialLinks": [],
+    "fatherId": 5523,
+    "sonsIdList": [
+      5542,
+      5543
+    ]
+  },
+  {
+    "id": 5532,
+    "name": "Սևադա",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Ալբերտի",
+    "birthDate": "08.04.1960",
+    "dieDate": "",
+    "imageAddress": "images/people/default.avif",
+    "description": "Հավելյալ տեղեկություններ",
+    "phone": "",
+    "socialLinks": [],
+    "fatherId": 5524,
+    "sonsIdList": [
+      5544
+    ]
+  },
+  {
+    "id": 5533,
+    "name": "Մարզպետ",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Ալբերտի",
+    "birthDate": "21.09.1964",
+    "dieDate": "",
+    "imageAddress": "images/people/default.avif",
+    "description": "Հավելյալ տեղեկություններ",
+    "phone": "",
+    "socialLinks": [],
+    "fatherId": 5524,
+    "sonsIdList": [
+      5545
+    ]
+  },
+  {
+    "id": 5534,
+    "name": "Էդգար",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Մակեդոնի",
+    "birthDate": "11.03.1968",
+    "dieDate": "",
+    "imageAddress": "images/people/default.avif",
+    "description": "Հավելյալ տեղեկություններ",
+    "phone": "",
+    "socialLinks": [],
+    "fatherId": 5525,
+    "sonsIdList": [
+      5546,
+      5547,
+      5548
+    ]
+  },
+  {
+    "id": 5535,
+    "name": "Շավիղ",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Չառլիկի",
+    "birthDate": "05.05.1970",
+    "dieDate": "",
+    "imageAddress": "images/people/default.avif",
+    "description": "Հավելյալ տեղեկություններ",
+    "phone": "",
+    "socialLinks": [],
+    "fatherId": 5526,
+    "sonsIdList": [
+      5549
+    ]
+  },
+  {
+    "id": 5536,
+    "name": "Արմեն",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Չառլիկի",
+    "birthDate": "17.12.1974",
+    "dieDate": "",
+    "imageAddress": "images/people/5536.avif",
+    "description": "Հավելյալ տեղեկություններ",
+    "phone": "",
+    "socialLinks": [],
+    "fatherId": 5526,
+    "sonsIdList": [
+      5550
+    ]
+  },
+  {
+    "id": 5537,
+    "name": "Աբով",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Ահարոնի",
+    "birthDate": "17.05.1992",
+    "dieDate": "",
+    "imageAddress": "images/people/5537.avif",
+    "description": "Հավելյալ տեղեկություններ",
+    "phone": "+37477323143",
+    "socialLinks": [
+      "https://www.facebook.com/profile.php?id=61561165241078&locale=hy_AM"
+    ],
+    "fatherId": 5528,
+    "sonsIdList": []
+  },
+  {
+    "id": 5538,
+    "name": "Հայկ",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Ահարոնի",
+    "birthDate": "06.09.1996",
+    "dieDate": "",
+    "imageAddress": "images/people/default.avif",
+    "description": "Հավելյալ տեղեկություններ",
+    "phone": "",
+    "socialLinks": [],
+    "fatherId": 5528,
+    "sonsIdList": []
+  },
+  {
+    "id": 5539,
+    "name": "Ջոնիկ",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Պավլիկի",
+    "birthDate": "04.05.1972",
+    "dieDate": "",
+    "imageAddress": "images/people/default.avif",
+    "description": "Հավելյալ տեղեկություններ",
+    "phone": "",
+    "socialLinks": [],
+    "fatherId": 5529,
+    "sonsIdList": [
+      5551
+    ]
+  },
+  {
+    "id": 5540,
+    "name": "Ջանիկ",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Կորյունի",
+    "birthDate": "16.10.1975",
+    "dieDate": "",
+    "imageAddress": "images/people/default.avif",
+    "description": "Հավելյալ տեղեկություններ",
+    "phone": "",
+    "socialLinks": [],
+    "fatherId": 5530,
+    "sonsIdList": [
+      5552
+    ]
+  },
+  {
+    "id": 5541,
+    "name": "Ռոլանդ",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Կորյունի",
+    "birthDate": "28.02.1979",
+    "dieDate": "",
+    "imageAddress": "images/people/default.avif",
+    "description": "Հավելյալ տեղեկություններ",
+    "phone": "",
+    "socialLinks": [],
+    "fatherId": 5530,
+    "sonsIdList": []
+  },
+  {
+    "id": 5542,
+    "name": "Գևորգ",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Արայիկի",
+    "birthDate": "07.07.1982",
+    "dieDate": "",
+    "imageAddress": "images/people/5542.avif",
+    "description": "Հավելյալ տեղեկություններ",
+    "phone": "+7 905 684-55-15",
+    "socialLinks": [],
+    "fatherId": 5531,
+    "sonsIdList": [
+      5553
+    ]
+  },
+  {
+    "id": 5543,
+    "name": "Վահե",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Արայիկի",
+    "birthDate": "19.11.1986",
+    "dieDate": "",
+    "imageAddress": "images/people/default.avif",
+    "description": "Հավելյալ տեղեկություններ",
+    "phone": "",
+    "socialLinks": [],
+    "fatherId": 5531,
+    "sonsIdList": []
+  },
+  {
+    "id": 5544,
+    "name": "Ռոմա",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Սևադայի",
+    "birthDate": "15.08.1988",
+    "dieDate": "",
+    "imageAddress": "images/people/default.avif",
+    "description": "Հավելյալ տեղեկություններ",
+    "phone": "",
+    "socialLinks": [],
+    "fatherId": 5532,
+    "sonsIdList": []
+  },
+  {
+    "id": 5545,
+    "name": "Ալբերտ",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Մարզպետի",
+    "birthDate": "02.02.1992",
+    "dieDate": "",
+    "imageAddress": "images/people/default.avif",
+    "description": "Հավելյալ տեղեկություններ",
+    "phone": "",
+    "socialLinks": [],
+    "fatherId": 5533,
+    "sonsIdList": []
+  },
+  {
+    "id": 5546,
+    "name": "Էդմոն",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Էդգարի",
+    "birthDate": "20.06.1990",
+    "dieDate": "",
+    "imageAddress": "images/people/default.avif",
+    "description": "Հավելյալ տեղեկություններ",
+    "phone": "",
+    "socialLinks": [],
+    "fatherId": 5534,
+    "sonsIdList": []
+  },
+  {
+    "id": 5547,
+    "name": "Լեոն",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Էդգարի",
+    "birthDate": "14.01.1994",
+    "dieDate": "",
+    "imageAddress": "images/people/default.avif",
+    "description": "Հավելյալ տեղեկություններ",
+    "phone": "",
+    "socialLinks": [],
+    "fatherId": 5534,
+    "sonsIdList": []
+  },
+  {
+    "id": 5548,
+    "name": "Սամսոն",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Էդգարի",
+    "birthDate": "30.09.1998",
+    "dieDate": "",
+    "imageAddress": "images/people/default.avif",
+    "description": "Հավելյալ տեղեկություններ",
+    "phone": "",
+    "socialLinks": [],
+    "fatherId": 5534,
+    "sonsIdList": []
+  },
+  {
+    "id": 5549,
+    "name": "Արթուր",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Շավիղի",
+    "birthDate": "23.03.1993",
+    "dieDate": "",
+    "imageAddress": "images/people/default.avif",
+    "description": "Հավելյալ տեղեկություններ",
+    "phone": "",
+    "socialLinks": [],
+    "fatherId": 5535,
+    "sonsIdList": []
+  },
+  {
+    "id": 5550,
+    "name": "Արեգ",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Արմենի",
+    "birthDate": "09.08.1997",
+    "dieDate": "",
+    "imageAddress": "images/people/5550.avif",
+    "description": "Հավելյալ տեղեկություններ",
+    "phone": "+374 98 408568",
+    "socialLinks": [],
+    "fatherId": 5536,
+    "sonsIdList": []
+  },
+  {
+    "id": 5551,
+    "name": "Պաշա",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Ջոնիկի",
+    "birthDate": "14.04.1995",
+    "dieDate": "",
+    "imageAddress": "images/people/default.avif",
+    "description": "Հավելյալ տեղեկություններ",
+    "phone": "",
+    "socialLinks": [],
+    "fatherId": 5539,
+    "sonsIdList": []
+  },
+  {
+    "id": 5552,
+    "name": "Տիգրան",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Ջանիկի",
+    "birthDate": "26.11.2000",
+    "dieDate": "",
+    "imageAddress": "images/people/default.avif",
+    "description": "Հավելյալ տեղեկություններ",
+    "phone": "",
+    "socialLinks": [],
+    "fatherId": 5540,
+    "sonsIdList": []
+  },
+  {
+    "id": 5553,
+    "name": "Դավիթ",
+    "secondName": "Խաչատրյան",
+    "fathersName": "Գևորգի",
+    "birthDate": "18.06.2005",
+    "dieDate": "",
+    "imageAddress": "images/people/default.avif",
+    "description": "Հավելյալ տեղեկություններ",
+    "phone": "",
+    "socialLinks": [],
+    "fatherId": 5542,
+    "sonsIdList": []
+  }
+]
