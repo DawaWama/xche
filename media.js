@@ -52,11 +52,7 @@
       button.setAttribute('aria-label', 'Դիտել մեծ չափով');
       button.appendChild(image);
 
-      var caption = document.createElement('figcaption');
-      caption.textContent = imageData.label + ' / ' + imageData.url.pathname.split('/').pop();
-
       item.appendChild(button);
-      item.appendChild(caption);
       gallery.appendChild(item);
     });
 
