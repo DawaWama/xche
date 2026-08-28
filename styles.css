@@ -328,6 +328,20 @@ main {
   background: var(--bg);
 }
 
+.media-image-button {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: zoom-in;
+}
+
+.media-image-button:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: -2px;
+}
+
 .media-article {
   background: var(--surface);
   border-radius: var(--radius);

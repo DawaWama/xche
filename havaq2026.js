@@ -22,10 +22,16 @@
   function renderGallery(urls) {
     gallery.innerHTML = '';
     urls.forEach(function (url) {
+      var button = document.createElement('button');
+      button.type = 'button';
+      button.className = 'media-image-button';
+      button.setAttribute('aria-label', 'Դիտել մեծ չափով');
+
       var image = document.createElement('img');
       image.src = url.href;
       image.alt = 'Խաչատրյանների հավաքը 2026';
-      gallery.appendChild(image);
+      button.appendChild(image);
+      gallery.appendChild(button);
     });
     showStatus(urls.length ? '' : 'Այս թղթապանակում լուսանկարներ չկան։');
   }

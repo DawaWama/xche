@@ -10,29 +10,22 @@
 
   if (!gallery || !status) return;
 
-  function getImageUrls(directoryHtml, folder) {
-    var directoryDocument = new DOMParser().parseFromString(directoryHtml, 'text/html');
-    return Array.from(directoryDocument.querySelectorAll('a[href]'))
-      .map(function (link) {
-        return new URL(link.getAttribute('href'), window.location.href);
-      })
-      .filter(function (url) {
-        return url.pathname.indexOf('/' + folder.path) !== -1 &&
-          url.pathname.split('/').pop().match(imageExtensions);
-      })
-      .map(function (url) {
-        return { url: url, label: folder.label };
+  function getImageUrls(fileNames, folder) {
+    return fileNames
+      .filter(function (fileName) { return imageExtensions.test(fileName); })
+      .map(function (fileName) {
+        return { url: new URL(folder.path + fileName, window.location.href), label: folder.label };
       });
   }
 
   function loadFolder(folder) {
-    return fetch(folder.path)
+    return fetch(folder.path + 'images.json')
       .then(function (response) {
-        if (!response.ok) throw new Error('Folder is not available');
-        return response.text();
+        if (!response.ok) throw new Error('Folder manifest is not available');
+        return response.json();
       })
-      .then(function (directoryHtml) {
-        return getImageUrls(directoryHtml, folder);
+      .then(function (fileNames) {
+        return getImageUrls(fileNames, folder);
       })
       .catch(function () {
         return [];
@@ -53,10 +46,16 @@
       image.src = imageData.url.href;
       image.alt = imageData.label;
 
+      var button = document.createElement('button');
+      button.type = 'button';
+      button.className = 'media-image-button';
+      button.setAttribute('aria-label', 'Դիտել մեծ չափով');
+      button.appendChild(image);
+
       var caption = document.createElement('figcaption');
       caption.textContent = imageData.label + ' / ' + imageData.url.pathname.split('/').pop();
 
-      item.appendChild(image);
+      item.appendChild(button);
       item.appendChild(caption);
       gallery.appendChild(item);
     });
