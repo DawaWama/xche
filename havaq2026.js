@@ -10,16 +10,10 @@
     status.textContent = message;
   }
 
-  function getImageUrls(directoryHtml) {
-    var documentFragment = new DOMParser().parseFromString(directoryHtml, 'text/html');
-    return Array.from(documentFragment.querySelectorAll('a[href]'))
-      .map(function (link) {
-        return new URL(link.getAttribute('href'), window.location.href);
-      })
-      .filter(function (url) {
-        return url.pathname.indexOf('/images/havaq2026/') !== -1 &&
-          url.pathname.split('/').pop().match(imageExtensions);
-      })
+  function getImageUrls(fileNames) {
+    return fileNames
+      .filter(function (fileName) { return imageExtensions.test(fileName); })
+      .map(function (fileName) { return new URL(folder + fileName, window.location.href); })
       .sort(function (first, second) {
         return first.pathname.localeCompare(second.pathname, undefined, { numeric: true });
       });
@@ -36,15 +30,15 @@
     showStatus(urls.length ? '' : 'Այս թղթապանակում լուսանկարներ չկան։');
   }
 
-  fetch(folder)
+  fetch(folder + 'images.json')
     .then(function (response) {
-      if (!response.ok) throw new Error('Gallery folder is not available');
-      return response.text();
+      if (!response.ok) throw new Error('Gallery manifest is not available');
+      return response.json();
     })
-    .then(function (directoryHtml) {
-      renderGallery(getImageUrls(directoryHtml));
+    .then(function (fileNames) {
+      renderGallery(getImageUrls(fileNames));
     })
     .catch(function () {
-      showStatus('Լուսանկարները ցուցադրելու համար սերվերը պետք է թույլ տա թղթապանակի ցուցակի դիտումը։');
+      showStatus('Լուսանկարները բեռնելիս սխալ է տեղի ունեցել։');
     });
 })();
